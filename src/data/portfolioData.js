@@ -14,7 +14,7 @@ export const personalInfo = {
   github: "https://github.com/prishamehta01",
   linkedin: "https://linkedin.com/in/prisha-mehta-a549b8259",
   twitter: "#",
-  resumeUrl: "#",
+  resumeUrl: "/PrishaMehtaResume.pdf",
   avatar: "/images/avatar.png",
   availableForHire: true,
   yearsOfExperience: 1,

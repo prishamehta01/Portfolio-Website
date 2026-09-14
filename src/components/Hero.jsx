@@ -77,16 +77,13 @@ export default function Hero() {
             </a>
             <a
               href={personalInfo.resumeUrl}
-              download="Prisha_Mehta_Resume.pdf"
-              onClick={(e) => {
-                e.preventDefault();
-                alert("Downloading Prisha Mehta's Resume (PDF Sample)...");
-              }}
+              download="PrishaMehtaResume.pdf"
               className="btn btn-outline"
             >
               <Download size={18} />
               <span>Resume</span>
             </a>
+
           </div>
 
           {/* Social Media Links */}
@@ -108,7 +105,7 @@ export default function Hero() {
         <div className="hero-visual">
           <div className="avatar-wrapper code-avatar-wrapper">
             <div className="avatar-glow-ring" />
-            
+
             {/* Sleek Monogram & Code Visual Card */}
             <div className="code-visual-card glass-card">
               <div className="code-visual-header">
