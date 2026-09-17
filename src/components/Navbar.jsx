@@ -18,7 +18,6 @@ export default function Navbar({ accent, setAccent }) {
   ];
 
   const accents = [
-    { id: 'cyan', name: 'Cyan Glow', color: '#00f2fe' },
     { id: 'violet', name: 'Electric Violet', color: '#a855f7' },
     { id: 'emerald', name: 'Emerald Wave', color: '#10b981' },
   ];

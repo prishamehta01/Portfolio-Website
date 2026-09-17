@@ -71,14 +71,16 @@ export default function Projects() {
               <div className="project-card-content">
                 <div className="project-meta-row">
                   <span className="project-cat">{project.category}</span>
-                  <div className="project-stats">
-                    <span title="Stars">
-                      <Star size={14} className="star-icon" /> {project.stars}
-                    </span>
-                    <span title="Forks">
-                      <GitFork size={14} /> {project.forks}
-                    </span>
-                  </div>
+                  {project.stars != null && project.forks != null && (
+                    <div className="project-stats">
+                      <span title="Stars">
+                        <Star size={14} className="star-icon" /> {project.stars}
+                      </span>
+                      <span title="Forks">
+                        <GitFork size={14} /> {project.forks}
+                      </span>
+                    </div>
+                  )}
                 </div>
 
                 <h3 className="project-title" onClick={() => setSelectedProject(project)}>
@@ -120,7 +122,7 @@ export default function Projects() {
                         <Github size={18} />
                       </a>
                     )}
-                    {project.demoUrl && (
+                    {project.demoUrl && project.demoUrl !== '#' && (
                       <a
                         href={project.demoUrl}
                         target="_blank"

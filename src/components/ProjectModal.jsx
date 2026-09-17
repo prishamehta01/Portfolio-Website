@@ -44,21 +44,23 @@ export default function ProjectModal({ project, onClose }) {
           <div className="modal-header-row">
             <div>
               <h2 className="modal-title">{title}</h2>
-              <div className="modal-metrics">
-                <span className="metric-pill">
-                  <Star size={14} className="metric-icon star" />
-                  {stars} Stars
-                </span>
-                <span className="metric-pill">
-                  <GitFork size={14} className="metric-icon" />
-                  {forks} Forks
-                </span>
-              </div>
+              {stars != null && forks != null && (
+                <div className="modal-metrics">
+                  <span className="metric-pill">
+                    <Star size={14} className="metric-icon star" />
+                    {stars} Stars
+                  </span>
+                  <span className="metric-pill">
+                    <GitFork size={14} className="metric-icon" />
+                    {forks} Forks
+                  </span>
+                </div>
+              )}
             </div>
 
             {/* Modal Action Links */}
             <div className="modal-actions">
-              {demoUrl && (
+              {demoUrl && demoUrl !== '#' && (
                 <a
                   href={demoUrl}
                   target="_blank"

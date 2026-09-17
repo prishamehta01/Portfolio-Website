@@ -35,7 +35,7 @@ export const aboutData = {
     { label: "B.E. CSE CGPA", value: "9.4" },
     { label: "Regression Tests Automated", value: "600+" },
     { label: "Detection Accuracy (YOLOv5)", value: "90%" },
-    { label: "Hackathon Winner", value: "1st Place" }
+    { label: "Hackathon Winner", value: "2nd Place" }
   ]
 };
 
@@ -61,8 +61,8 @@ export const projectsData = [
     category: "Full Stack & AI",
     shortDesc: "Personalized memory platform with Chrome extension, hybrid full-text & pgvector semantic search, and async RabbitMQ pipeline.",
     image: "/images/hyper_flow.png",
-    stars: 128,
-    forks: 24,
+    stars: null,
+    forks: null,
     demoUrl: "#",
     githubUrl: "https://github.com/prishamehta01/recall",
     featured: true,
@@ -84,10 +84,10 @@ export const projectsData = [
     category: "AI & ML",
     shortDesc: "Drone-integrated computer vision system achieving 90% accuracy in detecting coastal garbage from live video feeds.",
     image: "/images/vision_ops.png",
-    stars: 215,
-    forks: 42,
-    demoUrl: "#",
-    githubUrl: "https://github.com/prishamehta01/aquasentinel",
+    stars: null,
+    forks: null,
+    demoUrl: null,
+    githubUrl: null,
     featured: true,
     tags: ["Python", "YOLOv5", "Computer Vision", "Google Colab", "Drone Prototype"],
     details: {
@@ -107,10 +107,10 @@ export const projectsData = [
     category: "Backend Systems",
     shortDesc: "Spring Boot backend architecture for student management, course registration, authentication, and relational data handling.",
     image: "/images/nexus_cloud.png",
-    stars: 84,
-    forks: 16,
-    demoUrl: "#",
-    githubUrl: "https://github.com/prishamehta01/student-info-system",
+    stars: null,
+    forks: null,
+    demoUrl: null,
+    githubUrl: null,
     featured: false,
     tags: ["Java", "Spring Boot", "REST APIs", "MySQL", "JPA/Hibernate"],
     details: {

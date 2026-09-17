@@ -10,7 +10,8 @@ import Footer from './components/Footer';
 
 export default function App() {
   const [accent, setAccent] = useState(() => {
-    return localStorage.getItem('portfolio_accent') || 'cyan';
+    const saved = localStorage.getItem('portfolio_accent');
+    return (saved === 'violet' || saved === 'emerald') ? saved : 'violet';
   });
 
   useEffect(() => {
