@@ -161,8 +161,8 @@ export default function Hero() {
             <div className="floating-experience-card glass-card">
               <CheckCircle size={20} className="check-badge" />
               <div>
-                <div className="exp-years">{personalInfo.yearsOfExperience}+ Years</div>
-                <div className="exp-label">Professional Software Experience</div>
+                <div className="exp-years">{personalInfo.yearsOfExperience}</div>
+                <div className="exp-label">Software Internship Experience</div>
               </div>
             </div>
           </div>

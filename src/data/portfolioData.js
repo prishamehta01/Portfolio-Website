@@ -17,7 +17,7 @@ export const personalInfo = {
   resumeUrl: "/PrishaMehtaResume.pdf",
   avatar: "/images/avatar.png",
   availableForHire: true,
-  yearsOfExperience: 1,
+  yearsOfExperience: "8+ Months",
   projectsCompleted: 8,
   codeCommits: "1,200+",
   cgpa: "9.4 CGPA"
